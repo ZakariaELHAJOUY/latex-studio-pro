@@ -1,0 +1,52 @@
+{
+  "name": "latex-studio-pro",
+  "version": "1.0.0",
+  "description": "Professional LaTeX Research Editor",
+  "homepage": "https://github.com/user/latex-studio-pro",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder build --linux deb"
+  },
+  "author": {
+    "name": "Zakaria EL HAJOUY",
+    "email": "zakaria.elhajouy@enim.ac.ma"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "electron": "^28.2.0",
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "com.latexstudio.pro",
+    "productName": "LaTeX Studio Pro",
+    "icon": "build/icon.png",
+
+    "directories": {
+      "output": "dist"
+    },
+    "linux": {
+      "icon": "build/latex-studio-pro.png",
+
+      "target": [
+        "deb"
+      ],
+
+      "maintainer": "Zakaria EL HAJOUY <zakaria.elhajouy@enim.ac.ma>",
+      "category": "Office",
+      "executableName": "latex-studio-pro",
+      "executableArgs": [
+        "--no-sandbox"
+      ]
+    },
+    "files": [
+      "**/*"
+    ]
+  }
+}
