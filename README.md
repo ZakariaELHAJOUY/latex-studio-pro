@@ -3,6 +3,8 @@
   <h1>LaTeX Studio Pro</h1>
   <p><strong>A professional, modern, and beautiful LaTeX research environment built for productivity.</strong></p>
 
+  <img src="screenshot.png" alt="LaTeX Studio Pro Screenshot" width="800" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); margin: 20px 0;" />
+
   <p>
     <a href="#features">Features</a> •
     <a href="#installation">Installation</a> •
